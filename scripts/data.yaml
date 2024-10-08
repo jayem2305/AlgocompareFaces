@@ -1,0 +1,13 @@
+train: ../dataset2/train/images
+val: ../dataset2/valid/images
+test: ../dataset2/test/images
+
+nc: 3
+names: ["front", "left", "right"]
+
+roboflow:
+  workspace: faces-qnd4l
+  project: faces_image
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/faces-qnd4l/faces_image/dataset/3
